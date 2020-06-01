@@ -1,0 +1,18 @@
+<div class="text-center">
+    <br>
+    <h3>Login Page</h3>
+    <br>
+    <label class="text-warning h5">
+        <% if(msg) %>
+            <%= msg%>
+    </label>
+    <div class="box">
+        <form action="/users/login" method="post" class="form-group">
+            <input class="form-control" placeholder="Enter username" name="username" type="text">
+            <input class="form-control" placeholder="Enter password" name="password" type="text">
+            <button class="btn btn-primary mt-2" type="submit">Sign-In</button>
+        </form>
+    </div>
+    <br>
+    <a href="/register">Don't have account...? Register Here</a>
+</div>

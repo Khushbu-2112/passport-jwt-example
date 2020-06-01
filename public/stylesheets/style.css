@@ -1,0 +1,27 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.card-footer{
+  position: absolute;
+  width: 93%;
+  bottom: 0;
+}
+
+.box{
+  border: 1px solid rgb(168, 161, 161);
+  border-radius: 6px;
+  box-shadow: 1px 1px 1px rgb(107, 176, 185);
+  width: fit-content;
+  padding:1% 2%;
+  margin: 0 auto;
+}
+
+.form-control{
+  margin: 5px;
+}
